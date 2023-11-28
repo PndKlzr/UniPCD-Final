@@ -45,11 +45,10 @@ export function Home() {
                     <NewsSection />
                     <Text
                         color="gray.700"
-                        paddingLeft={'300px'}
-                        paddingRight={'300px'}
-                        mt={'250px'}
-                        class="texto_home"
                         textAlign="center"
+                        px={{ base: '2', sm: '4', md: '60' }}
+                        mt={{ base: '8', md: '275px' }}
+                        mb={"30px"}
                     >
                         <strong>Quem somos?</strong>
                         <br />
@@ -62,10 +61,12 @@ export function Home() {
                     <Image
                         borderRadius={'50px'}
                         src={Logo}
-                        w={'50%'}
+                        w={['80%', '50%']}
+                        mx="auto"
+
                         ms={{ sm: '25%' }}
                         mt={'10px'}
-                        class="Home_Image-sc-18r806q-1"
+
                     />
 
                 </Box>
